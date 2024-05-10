@@ -1,0 +1,36 @@
+ .container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+    background: #ffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+
+}
+ html,body{
+    display: grid;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+ }
+ .container header{
+    font-size: 24px;
+    font-weight: bold;
+ }
+ .container form{
+    margin: 5px;
+ }
+ form .field{
+      width:100%;
+      height:45px;
+      display: flex;
+ }
+ form .field input{
+    height: 100%;
+    width:100%;
+    border: 1px solid lightgrey
+ }
